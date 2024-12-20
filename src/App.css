@@ -1,0 +1,47 @@
+.container {
+  
+ background-color: aliceblue;
+}
+
+/* menu.css */
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: 100px 200px auto auto auto;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 200px;
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: larger;
+}
+li {
+  list-style: none;
+  
+}
+.navbar li a{
+  text-decoration: none;
+  /* color: inherit; Keeps the text color consistent */
+}
+
+.No1 {
+  width: 20%;
+  margin: 0 auto; 
+  padding: 20px;
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.butn {
+  display: grid;
+  place-items: center;
+}
+
+.itemContainer{
+  margin-top: 100px;
+  display: flex;  
+  flex-wrap: wrap;
+  
+}
+
